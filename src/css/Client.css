@@ -1155,6 +1155,7 @@ header {
 /* footer */
 .footer_top {
     margin-top: 30px;
+    flex-direction: column !important;
 }
 .footer_top_title {
     border-bottom: 2px solid #000;
@@ -1256,6 +1257,9 @@ header {
 .footer_bottom div div {
     width: 100%;
 }
+.footer_bottom .container {
+    flex-direction: column !important;
+}
 .group {
     position: relative;
     top: -5px;
@@ -1353,6 +1357,7 @@ header {
     text-decoration: underline;
 }
 .company_info .inquiry {
+    background: no-repeat url(../images/btn_main_qnaClick.gif);
     cursor: pointer;
     display: inline-block;
     margin-left: 5px;
@@ -1386,12 +1391,24 @@ header {
     letter-spacing: -1px;
 }
 /* 푸터 끝 */
-
-.login_tab_wrap {
-    display: inline-block;
-    margin: 15px 0;
+.kakao-btn{
+    background-image: url("../images/kakao_login_medium_wide.png");
+    background-repeat: no-repeat;
+    background-size : cover;
+    margin: 10px auto;
+    /* padding: -10px; */
+    color: transparent;
+    width: 450px;
+    height: 67px;
 }
-.login_tab_wrap div {
+.login_tab_wrap {
+    width: 500px;
+    margin : 30px auto 200px auto;
+}
+.login_tab {
+    display: inline-block;
+}
+.login_tab div {
     cursor: pointer;
     box-sizing: border-box;
     float: left;
@@ -1400,6 +1417,10 @@ header {
     color: #707070;
     font-size: 16px;
     padding: 10px 0;
+}
+.login-form{
+    display: inline-block;
+    width: 460px;
 }
 .front {
     border: 1px solid #ef3e42;
