@@ -1,4 +1,4 @@
-# interpark_login_clone_react
+# interpark_clone_react
 리액트로 인터파크 로그인창 만들기
 
 
